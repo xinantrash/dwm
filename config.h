@@ -24,8 +24,8 @@ static const int smartgaps          = 0;        /* 1 means no outer gap when the
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
 static const Bool viewontag         = True;     /* Switch view on tag switch */
-static const char *fonts[]          = { "JetBrains Mono Medium:size=18", "Noto Sans CJK SC:size=18" };
-static const char dmenufont[]       = "JetBrains Mono Medium:size=24";
+static const char *fonts[]          = { "JetBrains Mono Medium:size=14", "Noto Sans CJK SC:size=14" };
+static const char dmenufont[]       = "JetBrains Mono Medium:size=14";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -47,7 +47,7 @@ static const unsigned int alphas[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "0", "1", "2", "3", "4", "5" };
+static const char *tags[] = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
